@@ -1,5 +1,5 @@
-site_name: BraccioV2 C++ Masterclass
-site_description: A modern C++ tutorial for understanding the BraccioV2 Arduino library
+site_name: BraccioV2 C++ Masterclass — HWIVC Community Edition
+site_description: A community-led C++ tutorial for understanding the BraccioV2 Arduino library and advancing hardware learning in Buea
 site_url: https://TheAfricanJiant.github.io/Practical-C-/
 repo_url: https://github.com/TheAfricanJiant/Practical-C-
 edit_uri: edit/main/docs/
@@ -17,14 +17,14 @@ theme:
     - content.code.annotate
   palette:
     - scheme: default
-      primary: indigo
-      accent: blue
+      primary: teal
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: blue
+      primary: teal
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode

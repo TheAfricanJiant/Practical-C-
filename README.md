@@ -4,6 +4,17 @@
 > Every lesson links directly to a readable Markdown file — no tools required to follow along on GitHub.
 
 [![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue?logo=github)](https://theafricanjiant.github.io/Practical-C-/)
+
+## 🙌 Community Edition & Attribution
+
+This project is being developed as a community-driven learning effort by **Tab Precious**, a core member of the **Hardware Innovation Valley Community (HWIVC)** in Buea, Cameroon.  
+
+- **Author:** Tab Precious  
+- **LinkedIn:** [Tabu Precious](https://cm.linkedin.com/in/tambu-precious-29bb67217)  
+- **Community:** [Hardware Innovation Valley Community (HWIVC)](https://hwivc.org/)  
+- **Community role:** Core team member contributing to hands-on robotics and embedded systems learning in Buea
+
+This work also gives proper reference and credit to the original **BraccioV2** library authored by **Lukas Severinghaus**, and to the earlier **Braccio** library by **Andrea Martino** and **Angelo Ferrante**. The content here is shared as part of a wider community endeavour to support practical hardware education and innovation in Cameroon.
 [![License](https://img.shields.io/github/license/TheAfricanJiant/Practical-C-)](LICENSE)
 [![Lessons](https://img.shields.io/badge/lessons-20-brightgreen)](#-curriculum)
 

@@ -4,6 +4,12 @@ Welcome to the **BraccioV2 C++ Masterclass**! This is a complete, hands-on learn
 
 Embedded systems and robotics require code that is not only highly performant and memory-efficient but also modular and easy to maintain. By learning C++ in the context of the **Braccio V2 Robotic Arm**, you will bridge the gap between abstract computer science concepts and real-world physical hardware.
 
+> This community edition is curated by **Tab Precious**, a core member of the **Hardware Innovation Valley Community (HWIVC)** in Buea, Cameroon. It is part of a wider community effort to promote practical robotics and embedded systems learning.
+>
+> **Author:** Tab Precious  
+> **LinkedIn:** [Tabu Precious](https://cm.linkedin.com/in/tambu-precious-29bb67217)  
+> **Community:** [HWIVC](https://hwivc.org/)
+
 ---
 
 ## Meet the Hardware
