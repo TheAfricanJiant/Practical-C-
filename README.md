@@ -9,8 +9,8 @@
 
 This project is being developed as a community-driven learning effort by **Tab Precious**, a core member of the **Hardware Innovation Valley Community (HWIVC)** in Buea, Cameroon.  
 
-- **Author:** Tab Precious  
-- **LinkedIn:** [Tabu Precious](https://cm.linkedin.com/in/tambu-precious-29bb67217)  
+- **Author:** Tambu Precious  
+- **LinkedIn:** [Tambu Precious](https://cm.linkedin.com/in/tambu-precious-29bb67217)  
 - **Community:** [Hardware Innovation Valley Community (HWIVC)](https://hwivc.org/)  
 - **Community role:** Core team member contributing to hands-on robotics and embedded systems learning in Buea
 
