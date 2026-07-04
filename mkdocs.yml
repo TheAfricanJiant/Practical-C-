@@ -1,0 +1,85 @@
+site_name: BraccioV2 C++ Masterclass
+site_description: A modern C++ tutorial for understanding the BraccioV2 Arduino library
+site_url: https://TheAfricanJiant.github.io/Practical-C-/
+repo_url: https://github.com/TheAfricanJiant/Practical-C-
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Roadmap: roadmap.md
+  - Introduction: introduction.md
+  - Getting Started: getting_started.md
+  - Part 1 - C++ Basics & Compilation:
+      - "Lesson 01: The C++ Toolchain & Compilation": Part1_Cpp_Basics/lesson01_compiler.md
+      - "Lesson 02: Variables, Types, and Constants": Part1_Cpp_Basics/lesson02_variables.md
+      - "Lesson 03: Control Flow & Decision Making": Part1_Cpp_Basics/lesson03_control_flow.md
+      - "Lesson 04: Functions & Scope": Part1_Cpp_Basics/lesson04_functions.md
+      - "Lesson 05: Header Files vs Source Files": Part1_Cpp_Basics/lesson05_headers.md
+      - "Lesson 06: Include Guards & Pragma Once": Part1_Cpp_Basics/lesson06_include_guards.md
+      - "Lesson 07: Preprocessor Macros": Part1_Cpp_Basics/lesson07_preprocessor.md
+  - Part 2 - Object-Oriented Programming:
+      - "Lesson 08: Classes & Objects": Part2_OOP/lesson08_classes.md
+      - "Lesson 09: Constructors & Member Initializers": Part2_OOP/lesson09_constructors.md
+      - "Lesson 10: Encapsulation & Bounds Checking": Part2_OOP/lesson10_encapsulation.md
+      - "Lesson 11: Member Functions & Const Methods": Part2_OOP/lesson11_methods.md
+  - Part 3 - Pointers, References & Memory:
+      - "Lesson 12: Understanding Pointers & Addresses": Part3_Memory/lesson12_pointers.md
+      - "Lesson 13: References & Pass-by-Reference": Part3_Memory/lesson13_references.md
+      - "Lesson 14: Stack vs Heap & Memory Safety": Part3_Memory/lesson14_dynamic_memory.md
+      - "Lesson 15: C-style Arrays & Joint State": Part3_Memory/lesson15_arrays.md
+  - Part 4 - Building Custom Arduino Libraries:
+      - "Lesson 16: The Arduino Build System & C++": Part4_Arduino_Libraries/lesson16_arduino_ecosystem.md
+      - "Lesson 17: Anatomy of an Arduino Library": Part4_Arduino_Libraries/lesson17_library_structure.md
+      - "Lesson 18: Dissecting the BraccioV2 Library Code": Part4_Arduino_Libraries/lesson18_bracciov2_deep_dive.md
+      - "Lesson 19: Step-by-Step Coding of MyBraccio": Part4_Arduino_Libraries/lesson19_coding_mybraccio.md
+      - "Lesson 20: Deploying, Testing, and Troubleshooting": Part4_Arduino_Libraries/lesson20_deployment.md
+  - Projects:
+      - "Project 01: Creating a Multi-Joint Robot Simulation": Projects/project01_robot.md
+  - Exercises:
+      - "Practice Workbook & Detailed Solutions": Exercises/exercises_solutions.md
+  - Appendix:
+      - "C++ & Arduino Syntax Cheatsheet": Appendix/cheatsheet.md

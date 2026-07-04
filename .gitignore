@@ -1,0 +1,21 @@
+# MkDocs build directory
+site/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Executables
+*.exe
+*.out
+arm_simulator
+robot_app
+status_app
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
